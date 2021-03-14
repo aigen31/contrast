@@ -4454,6 +4454,14 @@ body {
   line-height: 1.4;
 }
 
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 .container-fluid,
 .container-sm,
@@ -4490,6 +4498,14 @@ body {
   color: #000000;
 }
 
+.h3 {
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #000000;
+}
+
 .btn {
   position: relative;
   display: inline-block;
@@ -4499,6 +4515,9 @@ body {
   text-transform: uppercase;
 }
 
+/**
+ * Main Page Template start
+ */
 /**
  * section-nav start
  */
@@ -4633,4 +4652,32 @@ body {
 
 /**
  * section-software end
+ */
+/**
+ * Main Page Template end
+ */
+/**
+ * Error Page start
+ */
+.section-404 {
+  padding: 70px 0;
+  background-color: #000000;
+}
+
+.section-404 .title {
+  color: #ffffff;
+  margin: 0 0 32px 0;
+}
+
+.section-404__img {
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+}
+
+.section-404 .h3 {
+  color: #ffffff;
+}
+
+/**
+ * Error Page end
  */
